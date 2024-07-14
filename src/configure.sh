@@ -8,4 +8,6 @@ sudo mv intact /usr/local/bin
 sudo chmod +x /usr/local/bin/intact
 if [ "$run" = "Yes" ]; then
     intact
+else
+    echo "Intact is installed. Run 'intact' to start"
 fi

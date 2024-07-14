@@ -233,7 +233,7 @@ void input(int argc, char *argv[]) {
             exit(1);
         }
     } else if ((strcmp(argv[1], "-h") == 0 || strcmp(argv[1], "--help") == 0) && argc == 2) {
-        printf("Here is help for ya!!!!\n");
+        printf("Intact: A simple file encryption and decryption utility\nusage: intact [option] [filename] [newfilename]\n\nOptions:\n-e\tEncrypt a file\n-d\tDecrypt a file\n-h, --help\tShow this help message\n");
         exit(1);
     } else {
         fprintf(stderr, "Error: Use intact -h or intact --help for help!!\n");
